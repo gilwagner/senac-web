@@ -1,5 +1,16 @@
 Passo a Passo do GIT 
+PASSO 0: configurar o git
+-git config -- global user. name "gil wagner"
+-git config -- global user.email gilwagnersousachaves@gmail.com
+-git config -- global color.ui true
 
 PASSO 1:iniciar o Git, criando um repositorio
+ - git init
 PASSO 2: Adicionar os arquivos no INDEX
+ -git add
 PASSO 3: Criar a primeira versão / commit
+  - git commit -m "primeira versão"
+ PASSO 4: Ver o STATUS
+  - git status
+  PASSO 5: Ver o Log
+  - git log
