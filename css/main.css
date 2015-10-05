@@ -1,0 +1,14 @@
+h1 { 
+    /* cor do titulo principal */
+    color: red;
+}
+
+
+
+li {
+     /* Tirar os pontos */
+    list-style: none;
+    
+    /* Deixar um ao lado do outro */
+    display:inline-block;
+}
