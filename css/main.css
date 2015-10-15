@@ -33,6 +33,7 @@ body {
 .menu-link {
     display: inline-block;
     margin-right: 5px;
+}
 
 .form-pesquisa {
     float: left;
