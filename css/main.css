@@ -1,3 +1,44 @@
+body {
+    /* Cor do Fundo */
+    background-color: #eee
+    
+    /* Alterar a Fonte dos textos da página */
+    font-family: 'Roboto', sans-serif;
+}
+
+#cabeçalho {
+    /* borda */
+    border: 1px solid #000;
+    /* Borda Arredondada */
+    border-radius: 5px
+    /* espaço interno */
+    padding: 10px;
+    float: left;
+    width: 100%
+}
+
+.logo {
+    float: left;
+    
+}
+
+.menu {
+    float: left;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 15px;
+    
+}
+
+.menu-link {
+    display: inline-block;
+    margin-right: 5px;
+
+.form-pesquisa {
+    float: left;
+    margin-top: 15px;
+}
+    
 h1 { 
     /* cor do titulo principal */
     color: red;
