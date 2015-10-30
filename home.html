@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quarteto Fantastico</title>
+
+        <!-- Importar o CSS na página   -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--  Importar a Fonte Roboto na página  -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="centralizar">
+            <!-- Adicionar Cabeçalho  -->
+            <header id="cabecalho">                
+                <!-- Adicionar .logo -->
+                <a href="index.html" class="logo">
+                    <img src="img/logo.jpg" alt="Logo IMDB" />    
+                </a>
+
+                <!-- Adicionar Menu -->
+                <nav class="menu">
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="menu-link" href="lista.html">Lista de Filmes</a>
+                    <a class="menu-link" href="sobre.html">Sobre</a>
+                </nav>
+
+                <!-- Adicionar Campo de Pesquisa -->
+                <form class="form-pesquisa">
+                    <input type="text" name="pesquisa" />
+                    <button>Pesquisar</button>
+                </form>
+            </header>
+
+            <article class="conteudo">
+                <h1>Quarteto Fantastico <small>(2015)</small></h1>
+                <h2>"Fantastic Four" <em>(original title)</em></h2>
+                <!-- tag para imagem principal -->
+                <figure class="img-principal">
+                    <img src="img/quartetofantastico/imgprincipal.jpg" alt="Imagem Principal">
+                    <figcaption>Quarteto Fantastico (2015)</figcaption>
+                </figure>
+
+                <p class="descricao">A man enslaved by the mob since childhood and raised into behaving like a human attack dog escapes his captors and attempts to start a new life.</p>
+
+                <div class="img-list">
+                    <h3>Imagens Adicionais</h3>
+                    <ul>
+                        <li><img src="img/quartetofantastico/img01.jpg" alt="img01"></li>
+                        <li><img src="img/quartetofantastico/img02.jpg" alt="img02"></li>
+                        <li><img src="img/quartetofantastico/img03.jpg" alt="img03"></li>
+                        <li><img src="img/quartetofantastico/img04.jpg" alt="img04"></li>
+                        <li><img src="img/quartetofantastico/img05.jpg" alt="img05"></li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Adicionar Rodapé   -->
+            <footer id="rodape">
+                <p>
+                    <!-- &copy; é um HTML Entities. -->
+                    &copy; CopyRight - "Site do Maranhao" - Todos os Direitos Reservados 
+                    <br />
+
+                    <!-- E-mail de Contato -->
+                    <a href="mailto:gilwagnersousachaves@gmai.com">gilwagnersousachaves@gmail.com</a>
+                </p>
+            </footer>
+
+        </div>
+    </body>
+</html>
