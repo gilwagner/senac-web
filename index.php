@@ -22,4 +22,41 @@ $app->get('/hello/:name', function ($name) {
     echo "<p>". $olaMundo . "</p>";
 });
 
+$app->get('/', function () use ($app) {
+    $app->view->setData(array(
+        'title' => 'Página Principal',
+        'page' => 'page/home'
+    ));
+    
+         $app->render('layout.php');
+});
+
+$app->get('/sobre', function () use($app) {
+    $app->view->setData(array(
+        'title' => 'Página Sobre',
+        'page' => 'page/about'
+     ));
+        
+         $app->render('layout.php');
+});
+
+$app->get('/lista', function () use($app) {
+    $app->view->setData(array(
+        'title' => 'Página Lista',
+        'page' => 'page/list' 
+    ));
+        
+         $app->render('layout.php');
+});
+
+    
+$app->get('/filme/:name', function ($name) use($app) {
+    $app->view->setData(array(
+        'title' => 'Página de Filme',
+        'page' => 'movie/' . $name
+    ));
+    
+        $app->render('layout.php');
+});
+
 $app->run();
